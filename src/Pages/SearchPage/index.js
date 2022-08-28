@@ -7,7 +7,7 @@ import Footer from "../../Components/Footer/index";
 import MobileNav from "../../Components/MobileNav/index";
 import AnnouncementSection from "../../Components/AnnouncementSection";
 
-function SearchPage({values, setValues}) {
+function SearchPage({ values, setValues }) {
   const [trending, setTrending] = React.useState(false);
 
   const handleChange = (e) => {
@@ -39,7 +39,12 @@ function SearchPage({values, setValues}) {
       <div className="desktopnavwrapper">
         <Header />
       </div>
-      <SearchSection handleChange={handleChange} setTrending={setTrending} trending={trending} values={values} />
+      <SearchSection
+        handleChange={handleChange}
+        setTrending={setTrending}
+        trending={trending}
+        values={values}
+      />
       <FeatureCard values={values} trending={trending} />
       {values?.length < 3 && <AnnouncementSection data={data} />}
       <div style={{ marginTop: "100px" }}>

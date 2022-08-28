@@ -1,7 +1,12 @@
+@font-face {
+  font-family: "reemKufi";
+  src: url(../../Assets/fonts/ReemKufi-Regular.ttf);
+}
 .searchresultssubheader p {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   color: #3b4f7d;
+  margin-bottom: 15px;
   text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
 }
 .starssec p {
@@ -25,10 +30,11 @@
 }
 .notableheading {
   font-weight: 600;
+  text-transform: uppercase;
   font-size: 22px;
   color: #3b4f7d;
   margin-left: 40px;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 .notablecorouselwrapper {
   width: 55vw;
@@ -40,6 +46,9 @@
   );
   border-radius: 16px;
 }
+.top-c {
+  margin-top: 30px;
+}
 .summaryhead p {
   font-weight: 400;
   font-size: 22px;
@@ -47,6 +56,7 @@
   margin-top: -10px;
 }
 .summaryhead h3 {
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 22px;
   color: #3b4f7d;
@@ -61,6 +71,8 @@
   flex-direction: column;
 }
 .categoriesheading h1 {
+  font-family: "reemKufi";
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 28px;
   color: #3b4f7d;
@@ -83,7 +95,7 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 .summaryboxes {
   margin-top: 25px;
@@ -104,6 +116,12 @@
   align-items: center;
   justify-content: center;
 }
+.team-m {
+  margin-top: 30px;
+}
+.teammemberswrapper h1 {
+  text-transform: uppercase;
+}
 @media only screen and (min-width: 800px) {
   .categoriesbtnsmobile {
     display: none;
@@ -116,6 +134,9 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  .summaryboxes {
+    margin-top: 0px;
+  }
   .searchresultssec3con {
     width: 100%;
     background: none;
@@ -143,6 +164,7 @@
   }
   .notableheading {
     margin-left: 20px;
+    text-transform: capitalize;
   }
   .notablecorouselwrapper {
     margin-top: -40px !important;
@@ -157,6 +179,7 @@
   }
   .teammemberswrapper h1 {
     font-weight: 600 !important;
+    text-transform: capitalize;
     font-size: 14px !important;
     color: #3b4f7d !important;
   }
@@ -172,7 +195,10 @@
     color: #3b4f7d;
   }
   .notablecorouselwrapper {
-    height: 200px !important;
+    height: 190px !important;
+  }
+  .team-m {
+    margin-top: 17px;
   }
   .categoriesheading h1 {
     font-style: normal;
@@ -194,12 +220,16 @@
   }
   .summarycon {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 7px;
   }
   .summaryhead h3 {
+    text-transform: capitalize;
     font-weight: 600;
     font-size: 14px;
     color: #3b4f7d;
+  }
+  .top-c {
+    margin-top: 0px;
   }
   .categoriesbtns {
     margin-left: 20px;
@@ -249,17 +279,14 @@
   }
   .mintdatesec {
     width: 90vw !important;
-    height: 100px !important;
+    height: 80px !important;
   }
   .summarybox p {
     font-weight: 400;
     font-size: 10px;
     color: rgba(0, 0, 0, 0.8);
   }
-  .mintddateethimg img {
-    width: 40px;
-    height: 40.69px;
-  }
+
   .followersec {
     width: 100%;
     flex-direction: row !important;
