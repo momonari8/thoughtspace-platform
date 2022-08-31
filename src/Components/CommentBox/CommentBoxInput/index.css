@@ -50,6 +50,10 @@
   border: 1px solid #f1f1f1;
 }
 @media (max-width: 600px) {
+  .commentbtncon {
+    position: relative;
+    top: 24px;
+  }
   .commen-wrapper {
     width: 97vw;
   }
@@ -81,5 +85,8 @@
     min-width: 13px !important;
     margin: 0 2px !important;
     padding: 2px !important;
+  }
+  .updownsec button:nth-child(1) {
+    padding-left: 0 !important;
   }
 }

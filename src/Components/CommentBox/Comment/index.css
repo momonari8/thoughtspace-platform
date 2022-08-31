@@ -103,20 +103,20 @@
 }
 .commentsecinfocon {
   line-height: 0px;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 .commentseccon {
   display: flex;
   align-items: flex-start;
 }
 .commentboxcon {
- margin-left: 30px;
- margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 @media (max-width: 800px) {
   .commentsecimg img {
-    width: 21px;
-    height: 21px;
+    width: 35px;
+    height: 35px;
   }
   .commentsecinfosec1 p {
     font-size: 8px;

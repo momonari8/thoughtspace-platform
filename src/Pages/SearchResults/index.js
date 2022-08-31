@@ -90,7 +90,7 @@ function SearchResults({ values, setValues }) {
                     style={{
                       display: "flex",
                       alignItems: "flex-start",
-                      justifyContent: "space-between",
+                      justifyContent: "space-evenly",
                       width: "80vw",
                       flexWrap: "wrap",
                       marginRight: "80px",

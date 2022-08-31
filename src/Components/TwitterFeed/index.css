@@ -6,7 +6,7 @@
   padding-left: 30px;
 }
 .twitterfeedcon {
-  width: 25vw;
+  width: 20vw;
   height: 1210px;
   background: linear-gradient(
     94.96deg,
@@ -36,7 +36,16 @@
   margin-top: 16px;
   margin-bottom: 16px;
 }
+.timelinedesktop iframe {
+  width: 16vw !important;
+}
+.twitter-timeline.twitter-timeline-rendered {
+  width: auto !important;
+}
 @media only screen and (max-width: 800px) {
+  .twitter-timeline.twitter-timeline-rendered iframe {
+    width: 80vw !important;
+  }
   .desk {
     display: none;
   }

@@ -9,9 +9,9 @@
   border-radius: 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 10px;
+  justify-content: center;
+  /* padding-left: 20px;
+  padding-right: 10px; */
 }
 .mintdatesec1 p {
   font-weight: 400;
@@ -37,6 +37,9 @@
   font-size: 22px;
   color: #3b4f7d;
 }
+.sup {
+  color: #000000;
+}
 .whitepaperbox {
   width: 230.22px;
   height: 63.24px;
@@ -47,8 +50,30 @@
   justify-content: space-evenly;
   margin-top: 20px;
 }
+@media (min-width: 1450px) {
+  .mintdatesec1 {
+    margin-right: 150px;
+  }
+}
+@media (min-width: 1600px) {
+  .mintddateethimg {
+    width: 150px;
+  }
+  .mintdatesec1 {
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 900px) {
+  .mintddateethimg {
+    margin-left: 50px;
+  }
+}
 @media (max-width: 800px) {
   .mintdatesec {
     margin-top: -50px !important;
+  }
+  .mintdatesec {
+    justify-content: space-between;
   }
 }

@@ -15,7 +15,14 @@ function LineChartMobile(props) {
   return (
     <div style={{ marginTop: "-40px" }}>
       <div className="linechart-select-sec">
-        <LineChartSelect />
+        {/* <LineChartSelect /> */}
+        <div className="select_box">
+          <select name="" id="">
+            <option>Last 90 days</option>
+            <option>Last 60 days</option>
+            <option>Last 30 days</option>
+          </select>
+        </div>
         <p>$ 96,879.35</p>
       </div>
       <div className="linechartmobile">
