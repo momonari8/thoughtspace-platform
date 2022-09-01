@@ -11,7 +11,7 @@
 .navbarcon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-right: 40px;
   padding-left: 15px;
 }
@@ -22,8 +22,8 @@
 
 @media (min-width: 1250px) {
   .search-results-page-parent .navbarcon {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
   /* .corouselwrapper {
     padding-left: 80px;

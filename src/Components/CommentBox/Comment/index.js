@@ -34,24 +34,27 @@ function Comment(props) {
             <div className="commentsecinfosec4">
               <div className="updownsec">
                 <button>
-                  <span style={{cursor: 'pointer'}} >
+                  <span style={{ cursor: "pointer" }}>
                     <img src={uparrow} />
                   </span>
                 </button>
                 <p>{props?.Upvotes}</p>
                 <button>
-                  <span style={{cursor: 'pointer'}}>
+                  <span style={{ cursor: "pointer" }}>
                     <img src={downarrow} />
                   </span>
                 </button>
               </div>
               {!props?.reply && (
-                <div className="replysec" onClick={props.handleReply && props.handleReply}>
+                <div
+                  className="replysec"
+                  onClick={props.handleReply && props.handleReply}
+                >
                   <img src={ReplyIcon} />
                   <p>Reply</p>
                 </div>
               )}
-              <p className="commentsectoolbar">Give Tip</p>
+              <p className="commentsectoolbar">GiveTip</p>
               <p className="commentsectoolbar">Share</p>
               <p className="commentsectoolbar">Save</p>
               <p className="commentsectoolbar">Follow</p>

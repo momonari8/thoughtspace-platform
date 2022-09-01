@@ -114,12 +114,19 @@
   margin-top: 20px;
 }
 @media (max-width: 800px) {
+  .commentsecinfosec1 {
+    justify-content: start;
+  }
   .commentsecimg img {
     width: 35px;
     height: 35px;
   }
+  .commentsecinfosec1 img {
+    margin-right: 7px;
+  }
   .commentsecinfosec1 p {
     font-size: 8px;
+    margin-right: 7px;
   }
   .commentsecinfosec1 {
     width: 60vw;
@@ -143,8 +150,19 @@
     width: 10px;
   }
   .updownsec {
-    width: 50px;
+    /* width: 50px; */
+    width: auto;
+    justify-content: start;
   }
+  .updownsec p,
+  .commentsectoolbar,
+  .replysec,
+  .updownsec button {
+    margin-right: 7px;
+  }
+  /* .commentsectoolbar,
+  .replysec {
+  } */
   .replysec p {
     font-size: 8px;
   }
@@ -159,5 +177,7 @@
   }
   .commentsecinfosec4 {
     width: 60vw;
+
+    justify-content: start;
   }
 }

@@ -86,6 +86,30 @@
 .notablefollowerscon {
   margin-top: 2.7vw;
 }
+@media only screen and (min-width: 1500px) {
+  .notablefollowerscard {
+    width: 250px;
+  }
+  .namebox {
+    width: 206.58px;
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .notablefollowerscard {
+    width: 290px;
+  }
+  .namebox {
+    width: 230.58px;
+  }
+}
+@media only screen and (min-width: 1780px) {
+  .notablefollowerscard {
+    width: 330px;
+  }
+  .namebox {
+    width: 261.58px;
+  }
+}
 @media only screen and (max-width: 800px) {
   .notablecorouselwrapper {
     width: 97vw;

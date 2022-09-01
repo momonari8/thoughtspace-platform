@@ -8,7 +8,7 @@
   justify-content: center;
 }
 .commen-wrapper {
-  width: 85vw;
+  width: 80vw;
   height: auto;
 
   background: linear-gradient(
@@ -42,7 +42,7 @@
   margin-top: 20px;
 }
 .comment-wrapper-content {
-  width: 82vw;
+  width: 80vw;
   background-color: white;
   height: auto;
 }
@@ -86,7 +86,7 @@
     margin: 0 2px !important;
     padding: 2px !important;
   }
-  .updownsec button:nth-child(1) {
-    padding-left: 0 !important;
+  .updownsec button {
+    padding: 0 !important;
   }
 }
