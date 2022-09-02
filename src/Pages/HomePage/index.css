@@ -15,8 +15,14 @@ body {
   }
   .searchsecinput input {
     width: 250px !important;
-    height: 40px !important;
+    height: 14px !important;
   }
+  /* .rdw-editor-toolbar {
+    margin-bottom: 35px !important;
+  }
+  .rdw-editor-main {
+    min-height: 100px !important;
+  } */
   .searchsecinput {
     width: 350px !important;
     height: 45px !important;

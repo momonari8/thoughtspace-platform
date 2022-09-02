@@ -89,4 +89,16 @@
   .updownsec button {
     padding: 0 !important;
   }
+  .rdw-editor-main {
+    min-height: 120px;
+    margin-top: -10px;
+    padding-bottom: 31px;
+  }
+  .wrapperClassName.rdw-editor-wrapper {
+    position: relative;
+  }
+  .rdw-editor-toolbar.toolbarClassName {
+    position: absolute;
+    bottom: 0;
+  }
 }
